@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    firebase: {
+    apiKey: 'AIzaSyBB_vmjIbhmiqjJMEwCHaUUtaT6FmpGr8I',
+    authDomain: 'firechat-eee52.firebaseapp.com',
+    databaseURL: 'https://firechat-eee52.firebaseio.com',
+    projectId: 'firechat-eee52',
+    storageBucket: 'firechat-eee52.appspot.com',
+    messagingSenderId: '287334070290'
+  }
 };
